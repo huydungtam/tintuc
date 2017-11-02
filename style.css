@@ -1,0 +1,160 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.wrapper{
+	width: 1000px;
+	margin: 0 auto;
+}
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+.header{
+	background: white;
+}
+.logo{
+	width: 200px;
+	height: 100px;
+	float: left;
+}
+.logo img{
+	width: 200px;
+    height: 100px;
+}
+.header .menu{
+	width: 80%;
+	height: 100px;
+	float: right;
+    font-size: 22px;
+    background: #757171
+}
+.header .menu ul{
+	margin-top:17px;
+}
+.header .menu ul li{
+	list-style: none;
+	display: inline-block;
+	width: 15%;
+	text-align: center;
+	height: 50px;
+	padding-top: 23px;
+	border-left: 1px dotted #c2c2c2;
+}
+.header .menu ul li.other{
+	border-left: none;
+}
+.header .menu ul li a{
+	text-decoration: none;
+	color: white;
+}
+.content{
+	margin-top: 20px;
+}
+.silebar{
+	border: 1px solid #333;	
+	width: 20%;
+	float: left;
+}
+.silebar .section{
+	margin-bottom: 20px;
+	text-align: center;
+}
+h2{
+	background: #757171;
+	color:  white;
+}
+.silebar .section ul li{
+	margin: 5px auto;
+}
+.main-content .news{
+	border: 1px solid #333;
+	float: right;
+	padding: 15px;
+	margin-left: 65px;
+	margin-bottom:20px; 
+}
+.main-content .news img{
+	width: 300px;
+	height: 168px;
+}
+ul li {
+	list-style: none;
+}
+.main-content .news ul li {
+	margin-top: 5px;
+
+}
+.news a h4{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background: #757171;
+	color: white;
+	margin-bottom: 10px;
+}
+a{
+	text-decoration: none;
+	color: #757171;
+}
+.main-content{
+	width: 80%;
+	float: right;
+	margin-top: -650px;
+}
+.footer{
+	text-align: center;
+	background: #757171;
+	
+}
+.footer .container ul li{
+	display: inline-block;
+	    padding: 10px;
+}
+.footer .container ul li a{
+	color: white;
+}
+.wrapper h1.tieude{
+	background: #757171;
+	text-align: center;
+	color: white;
+}
+.wrapper .menucon{
+	background: #757171;
+	color: white;
+	width: 20%;
+	margin-top: 20px;
+	float: left;
+}
+.wrapper .menucon a{
+	color: white;
+}
+.wrapper .menucon ul li{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 1px solid white;
+}
+.main{
+	margin-top: 20px;
+	margin-left: 10px;
+	float: right;
+}
+.main .noidung tr th{
+	background:  #757171;
+	color: white;
+}
+.main .noidung tr td{
+	padding: 5px 21px;
+	text-align: center;
+}
+.main .noidung tr td input{
+	height: 30px;
+}
+.main form button {
+	padding: 5px 10px;
+	background:  #757171;
+	color: white;
+	margin: 10px auto;
+}
+.clearfix{
+	clear: both;
+}
